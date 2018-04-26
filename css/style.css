@@ -1,0 +1,15 @@
+.landing{
+	background-image: url("../assets/backgrounds/landing.jpg");
+}
+
+.breakfast{
+	background-image: url("../assets/foodtop/breakfast.jpg");
+}
+
+.dinner{
+	background-image: url("..assets/foodtop/dinner.jpg");
+}
+
+.lunch{
+	background-image: url("..assets/foodtop/lunch.jpg");
+}
