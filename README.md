@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Independent Project
 
 ## Instructions
@@ -12,3 +13,6 @@
   5) Complete the independent project.
   
   6) Push your commits up to your repo.
+=======
+# urbanBurger
+>>>>>>> a8bbbaeab55fc1b7683a42313459f6e9e5a568ec
