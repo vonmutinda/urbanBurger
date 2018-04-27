@@ -10,7 +10,7 @@
 		/*PAGE ONE*/
 .landing{
 	background-image: url("../assets/backgrounds/landing.jpg");
-	height: 750px;
+	height: 700px;
 }
 
 .landpad{
@@ -43,15 +43,13 @@
 .display{
 	text-align: center;
 	color: white;
-	height: 220px;
+	height: 200px;
 	font-style: italic;
 }
 
 .grey{
 	background-color: #D2CFCE;
 	color: #000000;
-	width: 100%;
-	height: 50%;
 }
 .orange{
 	background-color: #F0590D;
@@ -73,6 +71,17 @@
 
 
 		/*PAGE TWO*/
+
+.btnGala{
+	border-radius: 3px;
+	border-color:#DC7633;
+	color: #DC7633;
+	padding: 10px;
+	background-color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 
 .pageTwo{
 	margin-top: 20px;
@@ -122,17 +131,27 @@
 	padding : 22px;
 }
 
-
-
-
-
 /*PAGE FOUR*/
+.foo{
+	box-shadow: 0.2px 2px 2px 2px grey;
+	height: 300px;
+	padding : 20px;
+	margin:40px;
+
+}
+
+.customers{
+	padding-top: 30px;
+}
+
+
+
+/*PAGE FIVE*/
 .subscribe{
 	background-image: url("../assets/backgrounds/subscribe.jpg");
 	height: 500px;
 	color: white;
 	padding-top: 200px;
-	overflow: hidden;
 }
 
 .subscribe>button{
