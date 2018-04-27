@@ -10,7 +10,7 @@
 		/*PAGE ONE*/
 .landing{
 	background-image: url("../assets/backgrounds/landing.jpg");
-	height: 690px;
+	height: 700px;
 }
 
 .landpad{
@@ -49,7 +49,7 @@ section:hover{
 .display {
 	text-align: center;
 	color: white;
-	height: 200px;
+	height: 180px;
 }
 
 .grey{
@@ -61,7 +61,7 @@ section:hover{
 }
 
 .grey,.orange{
-	height: 100px;
+	height: 90px;
 	padding-top: 30px;
 	font-size: 16px;
 }
@@ -95,11 +95,19 @@ section:hover{
 }
 
 .pageTwo{
-	margin-top: 20px;
+	margin-top: 50px;
+	overflow: hidden;
+	clear: both;
+	margin-bottom: 50px;
+	padding:10px;
 }
 
 .box{
 	box-shadow: 10px #E8E8E6;
+}
+
+.space{
+	margin-top: 5px;
 }
 
 
@@ -117,10 +125,6 @@ button img{
 	width: 20px;
 }
 
-div#amka{
-	position: absolute;
-	float: right;
-}
 
 
 
@@ -129,12 +133,17 @@ div#amka{
 		/*PAGE THREE*/
 
 
-.box{
+.box ,.vertix{
 	box-shadow: 2px 0px 2px 2px grey;
 	padding-bottom: 15px;
 	padding-top: 15px;
-	position: relative;
 }
+
+.vertix{
+	margin-left: 0;
+	margin-right: 0;
+}
+
 
 .right{
 	text-align: right;
@@ -146,8 +155,9 @@ div#amka{
 
 .kempinski{
 	background-image: url("../assets/backgrounds/foodsBg.jpg");
-	height: 600px;
-	padding-top: 100px;
+	height: 700px;
+	padding-top: 150px;
+	overflow: hidden;
 }
 
 #menyu{
@@ -182,7 +192,7 @@ span{
 /*PAGE FOUR*/
 .foo{
 	box-shadow: 0.2px 2px 2px 2px grey;
-	height: 300px;
+	height: 400px;
 	padding : 20px;
 	margin:40px;
 
@@ -198,7 +208,6 @@ span{
 }
 
 .muya{
-
 	border-right: #F0F3F4 outset;
 }
 
