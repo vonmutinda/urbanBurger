@@ -111,8 +111,9 @@ section:hover{
 }
 
 
-.imange{
-	margin: 0px 0px 0px 0px;
+img#imange,.imange{
+	width: 276.965px;
+	overflow: hidden;
 }
 
 div.right h2 , {
@@ -134,14 +135,12 @@ button img{
 
 
 .box ,.vertix{
-	box-shadow: 2px 0px 2px 2px grey;
+	box-shadow: 2px 2px 2px 2px grey;
 	padding-bottom: 15px;
 	padding-top: 15px;
 }
 
 .vertix{
-	margin-left: 0;
-	margin-right: 0;
 }
 
 
