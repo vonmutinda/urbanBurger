@@ -1,11 +1,16 @@
-		/*PAGE ONE*/
-.landing{
-	background-image: url("../assets/backgrounds/landing.jpg");
-
-	height: 750px;
+		/*BACKGROUND IMAGES*/
+.landing , .breakfast,.lunch,.dinner,.subscribe{
+	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+
+		/*PAGE ONE*/
+.landing{
+	background-image: url("../assets/backgrounds/landing.jpg");
+	height: 750px;
 }
 
 .landpad{
@@ -20,30 +25,19 @@
 
 .breakfast{
 	background-image: url("../assets/foodtop/breakfast.jpg");
-
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .dinner{
 	background-image: url("../assets/foodtop/dinner.jpg");
-
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .lunch{
 	background-image: url("../assets/foodtop/lunch.jpg");
-	
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	opacity: 0.5;
+}
+
+.breakfast,.lunch,.dinner{
+	padding-top: 50px;
 }
 
 .display{
@@ -57,15 +51,19 @@
 	background-color: #D2CFCE;
 	color: #000000;
 	width: 100%;
+	height: 50%;
 }
 .orange{
 	background-color: #F0590D;
 }
 
 .opshon section{
-	margin: 0;
+	width: 100%;
 }
 
+.option section{
+	margin: 0px;
+}
 .logo{
 	margin-top: 150px;
 }
@@ -101,8 +99,100 @@
 .kempinski{
 	background-image: url("../assets/backgrounds/foodsBg.jpg");
 	height: 600px;
+	padding-top: 100px;
 }
+
 #menyu{
-	background-color: #D4CFCF;
+	background-color: white;
 	padding: 40px;
 }
+
+
+#lonely{
+	color: #535252;
+	background-color: #B6B5B4;
+}
+
+#selected{
+	background-color: white;
+	color: #DE6908;
+}
+
+#lonely ,  #selected{
+	padding : 22px;
+}
+
+
+
+
+
+/*PAGE FOUR*/
+.subscribe{
+	background-image: url("../assets/backgrounds/subscribe.jpg");
+	height: 500px;
+	color: white;
+	padding-top: 200px;
+	overflow: hidden;
+}
+
+.subscribe>button{
+	color: ;
+}
+
+.subscribe>input{
+	color: grey;
+	opacity: 0.5;
+	text-align: center;
+	padding:15px;
+	width: 25%;
+	border-radius: 3.9px;
+	background-color: white;
+
+}
+
+ul{
+	list-style: none;
+	margin: 10px;
+
+}
+
+ul li{
+	display: inline;
+	margin: 10px;
+}
+
+
+.footer{
+	background-color:#DB6401;
+	color: white;
+}
+
+.footer img{
+	margin-top: 40px;
+}
+
+.footer p{
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+
+
+
+.noisy{
+	float: left;
+}
+
+.hilton{
+	float: right;
+	width: 40%;
+}
+
+
+/*
+
+
+
+
+
+*/
