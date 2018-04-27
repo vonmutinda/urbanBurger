@@ -10,7 +10,7 @@
 		/*PAGE ONE*/
 .landing{
 	background-image: url("../assets/backgrounds/landing.jpg");
-	height: 700px;
+	height: 690px;
 }
 
 .landpad{
@@ -38,6 +38,7 @@
 
 .breakfast,.lunch,.dinner{
 	padding-top: 50px;
+	font-style: italic;
 }
 
 section:hover{
@@ -45,11 +46,10 @@ section:hover{
 	color:black ;
 }
 
-.display{
+.display {
 	text-align: center;
 	color: white;
 	height: 200px;
-	font-style: italic;
 }
 
 .grey{
@@ -60,10 +60,17 @@ section:hover{
 	background-color: #F0590D;
 }
 
-.opshon section{
-	width: 100%;
+.grey,.orange{
+	height: 100px;
+	padding-top: 30px;
+	font-size: 16px;
+}
+
+
+.opshon{
 	margin: 0px;
-	height: 
+	padding:0;
+
 }
 
 .logo{
@@ -109,6 +116,15 @@ button img{
 	height: 20px;
 	width: 20px;
 }
+
+div#amka{
+	position: absolute;
+	float: right;
+}
+
+
+
+
 
 		/*PAGE THREE*/
 
@@ -202,6 +218,11 @@ span{
 .subscribe button{
 	background-color:#F39C12 ;
 	color: white;
+	height: 13%;
+	width: 10%;
+	border-style: none;
+	border-radius: 2px;
+	font-weight: bold;
 }
 
 .subscribe>input{
