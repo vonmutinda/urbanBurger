@@ -33,11 +33,16 @@
 
 .lunch{
 	background-image: url("../assets/foodtop/lunch.jpg");
-	opacity: 0.5;
+	opacity: 0.6;
 }
 
 .breakfast,.lunch,.dinner{
 	padding-top: 50px;
+}
+
+a:hover{
+	background-color:  
+	color:black ;
 }
 
 .display{
@@ -57,11 +62,10 @@
 
 .opshon section{
 	width: 100%;
+	margin: 0px;
+	height: 
 }
 
-.option section{
-	margin: 0px;
-}
 .logo{
 	margin-top: 150px;
 }
@@ -143,6 +147,14 @@
 .customers{
 	padding-top: 30px;
 }
+
+.shaded{
+	border-left: 
+	border-left: 2px grey;
+}
+
+
+
 
 
 
