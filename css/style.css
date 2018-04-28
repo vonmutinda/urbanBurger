@@ -109,10 +109,12 @@
 
 .box{
 	box-shadow: 10px #E8E8E6;
+	margin: 0;
 }
 
 .baga{
 	height: 100%;
+	width: 100%;
 }
 
 .space{
