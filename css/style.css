@@ -54,7 +54,7 @@
 .display {
 	text-align: center;
 	color: white;
-	height: 180px;
+	height: 200px;
 }
 
 .grey{
@@ -66,7 +66,7 @@
 }
 
 .grey,.orange{
-	height: 90px;
+	height: 100px;
 	padding-top: 30px;
 	font-size: 16px;
 }
@@ -118,7 +118,7 @@
 }
 
 .space{
-	margin-top: 5px;
+	margin-top: 10px;
 }
 
 
@@ -159,9 +159,7 @@ button img{
 }
 
 
-.right{
-	text-align: right;
-}
+
 
 .space{
 	margin-bottom: 10px;
@@ -171,6 +169,8 @@ button img{
 	background-image: url("../assets/backgrounds/foodsBg.jpg");
 	height: 700px;
 	padding-top: 150px;
+	overflow: hidden;
+	clear: both;
 }
 
 #menyu{
@@ -217,12 +217,16 @@ span{
 
 
 /*PAGE FOUR*/
+.png{
+	height: 400px;
+}
+
 .foo{
 	box-shadow: 0.2px 2px 2px 2px grey;
-	height: 400px;
-	padding : 20px;
-	margin:40px;
-
+	height: auto;
+	padding : 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .customers{
@@ -322,4 +326,10 @@ ul li{
 .footer p{
 	padding-top: 10px;
 	margin-top: 20px;
+}
+
+/*EXTRAS*/
+h2,#lonely,#selected,span,button{
+	font-family: monospace;
+	font-weight: bold;
 }
