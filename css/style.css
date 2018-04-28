@@ -184,8 +184,8 @@ button img{
 .shot{
 	clear: both;
 	overflow: hidden;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 130px;
+	padding-bottom: 130px;
 
 }
 
@@ -235,10 +235,11 @@ span{
 
 
 /*PAGE FOUR*/
-.png{
-	height: 400px;
-}
 
+.png{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 .foo{
 	box-shadow: 0.2px 2px 2px 2px grey;
 	height: auto;
