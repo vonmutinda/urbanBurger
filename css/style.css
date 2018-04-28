@@ -117,7 +117,7 @@
 
 
 img#imange,.imange{
-	width: 276.965px;
+	width: 100%;
 	overflow: hidden;
 }
 
@@ -189,7 +189,7 @@ button img{
 
 #selected:hover{
 	color: #535252;
-	background-color:#CACFD2;
+	background-color:#E1E1E1;
 	border-right: #F0F3F4 outset;
 }
 
@@ -226,6 +226,17 @@ span{
 
 .muya{
 	border-right: #F0F3F4 outset;
+	padding-top: 20px;
+}
+
+.abt{
+	padding-top: 20px;
+	text-align: center;
+}
+
+#mteja{
+	padding-left: 10px;
+	padding-right: 15px; 
 }
 
 
