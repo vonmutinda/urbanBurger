@@ -36,13 +36,18 @@
 	opacity: 0.6;
 }
 
+.lunch:hover{
+	opacity: 1;
+	color: white;
+}
+
 .breakfast,.lunch,.dinner{
 	padding-top: 50px;
 	font-style: italic;
 }
 
-section:hover{
-	background-color:  
+.breakfast:hover, .dinner:hover{
+	opacity: 0.7;
 	color:black ;
 }
 
@@ -156,7 +161,6 @@ button img{
 	background-image: url("../assets/backgrounds/foodsBg.jpg");
 	height: 700px;
 	padding-top: 150px;
-	overflow: hidden;
 }
 
 #menyu{
@@ -171,10 +175,24 @@ button img{
 	border-right: #F0F3F4 outset;
 }
 
+#lonely:hover{
+	opacity: 0.5;
+	color: #DE6908;
+}
+
+
+
 #selected{
 	background-color: white;
 	color: #DE6908;
 }
+
+#selected:hover{
+	color: #535252;
+	background-color:#CACFD2;
+	border-right: #F0F3F4 outset;
+}
+
 
 #lonely ,  #selected{
 	padding : 22px;
@@ -221,16 +239,18 @@ span{
 	height: 500px;
 	color: white;
 	padding-top: 200px;
+	clear: both;
 }
 
 .subscribe button{
 	background-color:#F39C12 ;
 	color: white;
-	height: 13%;
-	width: 10%;
+	height: 18%;
+	width: 18%;
 	border-style: none;
 	border-radius: 2px;
 	font-weight: bold;
+	margin-left: 5px;
 }
 
 .subscribe>input{
@@ -269,24 +289,3 @@ ul li{
 	margin-bottom: 10px;
 	margin-top: 20px;
 }
-
-
-
-
-.noisy{
-	float: left;
-}
-
-.hilton{
-	float: right;
-	width: 40%;
-}
-
-
-/*
-
-
-
-
-
-*/
