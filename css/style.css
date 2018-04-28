@@ -8,9 +8,17 @@
 
 
 		/*PAGE ONE*/
+#cover{
+	position: relative;
+	float: left;
+	padding-left: 80px;
+	padding-top: 60px;
+}
+
+
 .landing{
 	background-image: url("../assets/backgrounds/landing.jpg");
-	height: 700px;
+	height: 750px;
 }
 
 .landpad{
@@ -167,15 +175,24 @@ button img{
 
 .kempinski{
 	background-image: url("../assets/backgrounds/foodsBg.jpg");
-	height: 700px;
-	padding-top: 150px;
+	height: auto;
 	overflow: hidden;
 	clear: both;
 }
 
+.shot{
+	clear: both;
+	overflow: hidden;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
 #menyu{
 	background-color: white;
-	padding: 40px;
+	margin: 0;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 
