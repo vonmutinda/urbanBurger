@@ -178,6 +178,7 @@ button img{
 	height: auto;
 	overflow: hidden;
 	clear: both;
+	opacity: .9;
 }
 
 .shot{
