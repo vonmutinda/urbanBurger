@@ -111,14 +111,22 @@
 	box-shadow: 10px #E8E8E6;
 }
 
+.baga{
+	height: 100%;
+}
+
 .space{
 	margin-top: 5px;
 }
 
 
+.imange{
+	float: left;
+}
+
+
 img#imange,.imange{
-	width: 100%;
-	overflow: hidden;
+	width: 50%;
 }
 
 div.right h2 , {
