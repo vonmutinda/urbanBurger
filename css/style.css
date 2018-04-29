@@ -378,3 +378,7 @@ h2,#lonely,#selected,span,button{
 	font-family: monospace;
 	font-weight: bold;
 }
+
+p{
+	font-size: 16px;
+}
