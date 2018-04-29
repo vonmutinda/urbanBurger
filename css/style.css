@@ -8,6 +8,9 @@
 
 
 		/*PAGE ONE*/
+strong{
+	font-family: monospace;
+}
 #cover{
 	position: relative;
 	float: left;
@@ -71,7 +74,7 @@
 	color: #000000;
 }
 .orange{
-	background-color: #F0590D;
+	background-color: #F15A29;
 }
 
 .grey,.orange{
@@ -100,8 +103,9 @@
 .btnGala{
 	border-radius: 3px;
 	border-color:#DC7633;
-	color: #DC7633;
-	padding: 10px;
+	color: #F15A29;
+	padding: 20px;
+	font-size: 16px;
 	background-color: white;
 	text-align: center;
 	text-transform: uppercase;
@@ -114,6 +118,10 @@
 	clear: both;
 	margin-bottom: 20px;
 	padding:10px;
+}
+
+.pageTwo h2{
+	color: #F15A29;
 }
 
 .box{
@@ -208,18 +216,18 @@ button img{
 
 #lonely:hover{
 	opacity: 0.5;
-	color: #DE6908;
+	color: #F15A29;
 }
 
 
 
 #selected{
 	background-color: white;
-	color: #DE6908;
+	color: #F15A29;
 }
 
 #selected:hover{
-	color: #535252;
+	color: #F15A29;
 	background-color:#E1E1E1;
 	border-right: #F0F3F4 outset;
 }
@@ -232,7 +240,7 @@ button img{
 
 
 span{
-	color:#DC7633; 
+	color:#F15A29; 
 	font-weight:bold;
 }
 
@@ -291,7 +299,7 @@ span{
 }
 
 .subscribe button{
-	background-color:#F39C12 ;
+	background-color:#F15A29 ;
 	color: white;
 	height: 17%;
 	width: 18%;
@@ -344,7 +352,11 @@ ul li{
 
 
 .footer{
-	background-color:#DB6401;
+	/*background-image: -webkit-linear-gradient(top,#EB984E,#F15A29);
+	background-image: -o-linear-gradient(top,#EB984E,#F15A29);
+	background-image: -moz-linear-gradient(top,#EB984E,#F15A29);
+	background-image: -ms-linear-gradient(top,#EB984E,#F15A29);*/
+	background-color: #F15A29;
 	color: white;
 	padding-top: 40px;
 	padding-bottom: 30px;
