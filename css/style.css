@@ -18,6 +18,7 @@
 
 .landing{
 	background-image: url("../assets/backgrounds/landing.jpg");
+	background-attachment: fixed;
 	height: 750px;
 }
 
@@ -176,6 +177,7 @@ button img{
 
 .kempinski{
 	background-image: url("../assets/backgrounds/foodsBg.jpg");
+	background-attachment: fixed;
 	height: auto;
 	overflow: hidden;
 	clear: both;
@@ -281,6 +283,7 @@ span{
 /*PAGE FIVE*/
 .subscribe{
 	background-image: url("../assets/backgrounds/subscribe.jpg");
+	background-attachment: fixed;
 	height: 550px;
 	color: white;
 	padding-top: 180px;
