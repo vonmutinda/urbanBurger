@@ -14,8 +14,13 @@ strong{
 #cover{
 	position: relative;
 	float: left;
-	padding-left: 80px;
-	padding-top: 60px;
+	margin-left: 80px;
+	margin-top: 60px;
+}
+
+#cover img:hover{
+	/*pop up the full page*/
+
 }
 
 .logo img:hover{
@@ -408,6 +413,6 @@ h2,#lonely,#selected,span,button{
 }
 
 p{
+	font-family: "Times New Roman", Times, serif;
 	font-size: 16px;
-	font-family: "arial , cursive";
 }
