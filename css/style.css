@@ -6,11 +6,19 @@
 	background-size: cover;
 }
 
+/*POP UP MENU*/
+.burger{
+	position:relative;
+	display: none;
+	background-color: #F15A29;
+	text-align: center;
+}
 
 		/*PAGE ONE*/
 strong{
 	font-family: monospace;
 }
+
 #cover{
 	position: relative;
 	float: left;
