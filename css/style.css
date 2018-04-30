@@ -336,7 +336,7 @@ span{
 	width: 25%;
 }
 
-.subscribe button:hover{
+.subscribeChimp:hover{
 	color:#F15A29;
 	background-color: white;
 	transition: .5s;
