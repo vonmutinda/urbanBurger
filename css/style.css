@@ -420,7 +420,9 @@ h2,#lonely,#selected,span,button{
 	font-weight: bold;
 }
 
-p{
-	font-family: "Times New Roman", Times, serif;
-	font-size: 16px;
+p ,h3{
+	/*font-family: 'Indie Flower', cursive;*/
+	/*font-family: 'Berkshire Swash', cursive;*/
+	font-family: 'Handlee', cursive;
+	font-size: 18px;
 }
