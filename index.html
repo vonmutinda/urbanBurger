@@ -32,16 +32,35 @@
 	<body>
 		<div class="container-fluid">
 
+
+			<!--Overlay Navigation Menu-->
+					<div id="nav" class="overlay">
+					
+						<a id="closeBtn" onclick="closeNav()" href=""> &times;</a>
+
+						<div class="overlayMenu">
+							<a href="#">Contacts</a>
+							<a href="#">Events</a>
+							<a href="#">Menu</a>
+						</div>
+
+					</div>
+			<!--  END Overlay Navigation Menu-->
+
+			
+
 			<!--contain the image first page-->	
 			<div class="row text-center landing">
 
-				<!--start of menu-->
-					<a id="cover" href="#cover">
-						<img src="assets/footerlogos/logo_white.png" alt="Menu">
-					</a>
+					<!--start of menu-->
+						<a id="cover" onclick="openNav()" href="#">
+							<img src="assets/footerlogos/logo_white.png" alt="overlayMenu">
+						</a>
 				
-				<!--end of menu-->
-					<br>
+					<!--end of menu-->
+
+			
+
 					<br>
 					<section class="logo"><!--Logo at the center of first page-->
 						<img src="assets/logoBig.png" alt="#logoBig">
