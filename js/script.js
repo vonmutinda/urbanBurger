@@ -1,12 +1,12 @@
 
 /**TRANSITION HORIZONTALLY**/
 
-function openNav(){
-	document.getElementById('nav').style.width = "100%";
+function openfullmenu(){
+	document.getElementById('fullnav').style.width = "100%";
 }
 
-function closeNav(){
-	document.getElementById('nav').style.width = "0%";
+function closefullmenu(){
+	document.getElementById('fullnav').style.width = "0%";
 }
 
 
@@ -14,10 +14,11 @@ function closeNav(){
 
 /*TRANSITION VERTICALLY*/
 
-function openNav(){
-	document.getElementById('nav').style.height = "100%";
+function openfullmenu(){
+	document.getElementById('fullnav').style.height = "100%";
 }
 
-function closeNav(){
-	document.getElementById('nav').style.height = "0";
+function closefullmenu(){
+	document.getElementById('fullnav').style.height = "0";
+	
 }
